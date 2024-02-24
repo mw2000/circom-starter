@@ -19,7 +19,11 @@ module.exports = {
     ptau: "https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_15.ptau",
     circuits: [
       {
-        name: "division",
+        name: "division"
+      },
+      {
+        name: "withdraw",
+        protocol: "plonk",
         // No protocol, so it defaults to groth16
       },
       {
